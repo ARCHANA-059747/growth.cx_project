@@ -1,0 +1,85 @@
+@import url('https://fonts.google.com/specimen/Epilogue'); 
+body {
+  margin: 0;
+  font-family: Epilogue;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(240, 247, 253) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-link{
+  cursor: pointer;
+}
+.dropdown-menu{
+  background-color: white !important;
+  box-shadow: 5px 5px 10px 1px rgb(227, 226, 226);
+  /* width: 10px !important; */
+}
+h2{
+  font-weight: 900 !important;
+  /* font-size:xx-large !important; */
+  /* font-stretch: expanded !important; */
+}
+.img1{
+  width: 60% !important;
+  height: 100%;
+}
+.img2{
+  width: 100% !important;
+  height: 100% !important;
+}
+.btn:hover{
+  background-color: white !important;
+  color: black !important;
+  border-color: black !important;
+  
+}
+.btn{
+  background-color: black !important;
+  color: white !important;
+
+
+}
+
+.navbar-toggler:focus {
+  text-decoration: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.client{
+  width: 100px !important;
+}
+.button{
+  border: none !important;
+}
+
+.offcanvas-end {
+  width: 250px !important; /* Set your desired width */
+}
+@media screen and (min-width: 380px) {
+  .client{
+    width: 45px !important;
+  }
+  .btn{
+    align-items: center !important;
+  }
+  .learn{
+    text-align: center !important;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none !important;
+    box-shadow: none !important;
+    border: black !important;
+  }
+  
+}
+.sna{
+  border-color: black !important;
+  border-radius: 10px !important;
+  border-width: 1px !important;
+}
